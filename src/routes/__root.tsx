@@ -81,9 +81,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Portfolio of Siyabonga Shaun Zakwe — Events Management professional, administrator, and fitness instructor based in Johannesburg." },
       { name: "author", content: "Siyabonga Shaun Zakwe" },
       { property: "og:title", content: "Siyabonga Zakwe — Portfolio" },
-      { property: "og:description", content: "Events Management professional, administrator, and fitness instructor based in Johannesburg." },
+      { property: "og:description", content: "Portfolio of Siyabonga Shaun Zakwe — Events Management professional, administrator, and fitness instructor based in Johannesburg." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Siyabonga Zakwe — Portfolio" },
+      { name: "twitter:description", content: "Portfolio of Siyabonga Shaun Zakwe — Events Management professional, administrator, and fitness instructor based in Johannesburg." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a6f32663-5c5c-4ec8-b3fd-032ab5a2bcb6/id-preview-7df01d55--dab58c98-cc33-4838-8c7d-5f32a1c59167.lovable.app-1784295360194.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a6f32663-5c5c-4ec8-b3fd-032ab5a2bcb6/id-preview-7df01d55--dab58c98-cc33-4838-8c7d-5f32a1c59167.lovable.app-1784295360194.png" },
     ],
     links: [
       {
